@@ -1,0 +1,27 @@
+[project]
+name = "chatbot-phi3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.5.2",
+    "datasets>=3.4.0",
+    "evaluate>=0.4.3",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.1",
+    "numpy>=2.2.3",
+    "onnxruntime>=1.21.0",
+    "optimum>=1.24.0",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "tensorboard>=2.19.0",
+    "torch>=2.6.0",
+    "transformers>=4.49.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.6.6",
+]
