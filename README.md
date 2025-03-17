@@ -17,7 +17,7 @@ Keywords: on-device AI, Phi-3 mini, model quantization, React Native, privacy-fo
 - **REST API Backend**: Scalable FastAPI implementation
 - **Modern UI**: Clean, intuitive chat interface built with React Native
 
-## 📋 Project Structure
+## 📋 Project Structure (WIP)
 
 ```
 phi3_chatbot/
@@ -36,15 +36,15 @@ phi3_chatbot/
 └── docs/               # Documentation
 ```
 
-## 🚀 Getting Started
+## 🚀 Getting Started (WIP)
 
 ### Prerequisites
 
-- Python 3.8+
+- Python 3.10
 - Node.js 14+
 - React Native CLI
 - Docker
-- GCP/AWS/DataStax account (for cloud deployment)
+- GCP (for cloud deployment)
 
 ### Model Preparation
 
@@ -97,7 +97,7 @@ phi3_chatbot/
    npx react-native run-android
    ```
 
-## 🛠️ Cloud Deployment
+## 🛠️ Cloud Deployment (WIP)
 
 ### Google Cloud Platform (GCP)
 
@@ -111,14 +111,6 @@ phi3_chatbot/
    gcloud run deploy phi3-api --image us-central1-docker.pkg.dev/your-project/your-repo/phi3-api:v1
    ```
 
-### AWS
-
-Instructions for AWS deployment can be found in `deployment/aws/README.md`
-
-### DataStax
-
-Instructions for DataStax deployment can be found in `deployment/datastax/README.md`
-
 ## 🧪 Testing
 
 Run automated tests:
@@ -126,7 +118,7 @@ Run automated tests:
 pytest tests/
 ```
 
-## 📊 Performance Benchmarks
+## 📊 Performance Benchmarks (Expected - Simulated)
 
 | Device | Inference Time | Memory Usage | Model Size |
 |--------|---------------|--------------|------------|
